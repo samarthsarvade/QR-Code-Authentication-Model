@@ -17,6 +17,9 @@ This project detects original (first print) versus counterfeit (second print) QR
   - `traditional_pipeline.py`: SVM training using HOG features.
   - `cnn_model.py`: CNN model training.
   - `utils.py`: Utility functions for data loading and visualization.
+    
+- **Results/**
+  ![Figure_1](https://github.com/user-attachments/assets/72568ec2-b66d-42c2-bfcd-dfa0131a6973)
 
 - **requirements.txt**  
   Lists the required Python packages.
