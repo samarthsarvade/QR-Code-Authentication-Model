@@ -1,0 +1,19 @@
+Step 1: Open VS Code and navigate to your project directory:
+cd "E:\Projects\QR Code Authentication Model"
+
+Step 2: Create and activate your virtual environment:
+venv\Scripts\activate
+
+Step 3: Upgrade pip and install required packages:
+pip install --upgrade pip
+pip install -r requirements.txt
+
+Step 4: Run the data_exploration.ipynb notebook to inspect and visualize the dataset.
+
+Step 5: Execute the traditional pipeline script to build an SVM classifier using HOG features.
+python src/traditional_pipeline.py
+
+Step 6: Execute the CNN training script.
+python src/cnn_model.py
+
+Step 7: Run the cnn_training.ipynb notebook for interactive visualization of CNN training metrics.
