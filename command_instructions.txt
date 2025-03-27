@@ -2,6 +2,7 @@ Step 1: Open VS Code and navigate to your project directory:
 cd "E:\Projects\QR Code Authentication Model"
 
 Step 2: Create and activate your virtual environment:
+python -m venv venv
 venv\Scripts\activate
 
 Step 3: Upgrade pip and install required packages:
