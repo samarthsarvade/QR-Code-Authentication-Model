@@ -1,5 +1,8 @@
 # QR Code Authentication Model
 
+QR Code Authentication: Detecting Original vs. Counterfeit Prints 🤓
+Developed a hybrid ML model combining traditional computer vision (HOG + SVM) with deep learning (CNN) to distinguish genuine from counterfeit QR codes. Utilized TensorFlow 2.10, scikit-learn, OpenCV, and scikit-image for image preprocessing, augmentation, and feature extraction😵‍💫. The CNN achieved 95.54% validation accuracy compared to 74% for the SVM, demonstrating resilience against scanning artifacts. 👀 Learned to integrate classical methods with deep learning and leverage GPU acceleration (where CUDA and cuDNN 😶‍🌫️ bother) for efficient model training.
+
 This project detects original (first print) versus counterfeit (second print) QR code images using two approaches:
 1. A traditional computer vision pipeline (HOG feature extraction with SVM).
 2. A deep learning-based approach (CNN with data augmentation).
