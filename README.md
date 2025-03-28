@@ -30,4 +30,4 @@ This project detects original (first print) versus counterfeit (second print) QR
 ## Setup and Execution
 
 1. Create and activate a Python virtual environment.
-2. Install the required packages using:
+2. Install the required packages using: requirements.txt (compatable with supported version)
